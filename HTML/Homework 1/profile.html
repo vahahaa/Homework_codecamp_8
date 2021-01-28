@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 14px;
+    }
+    .header {
+      background-color: rgb(240, 240, 240);
+      width: 85%;
+      height: 95px;
+      border-radius: 5px;
+      margin: 8px auto 10px auto;
+    }
+    .header p {
+      font-family: Segoe script;
+      color: rgb(235, 173, 149);
+      text-align: right;
+      font-size: 16px;
+      background-color: rgb(240, 240, 240);
+      padding: 5px 12px 5px 5px;
+      border-radius: 5px;
+      height: 40px;
+    }
+    .link {
+      margin: 3px;
+    }
+    a:link, a:visited {
+      display: inline;
+      color: grey;
+      text-decoration: none;
+      text-align: center;
+      padding: 7px 15px 7px 15px;
+      background-color: rgb(240, 240, 240);
+    }
+    a:hover, a:active {
+      display: inline;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      padding: 7px 15px 7px 15px;
+      background-color: lightgrey;
+    }
+    a.currentlink {
+      color: white;
+      background-color: lightgrey;
+    }
+    .profile {
+      background-color: rgb(240, 240, 240);
+      width: 85%;
+      height: 100%;
+      border-radius: 5px;
+      text-align: center;
+      margin: 0 auto 10px auto;
+    }
+    .profilepicture {
+      display: inline-block;
+      width: 200px;
+      border-radius: 100px;
+      box-shadow: 3px 3px 3px silver;
+      margin-top: 15px;
+    }
+    .name {
+      padding-bottom: 10px;
+    }
+    .name p {
+      display: inline-block;
+      margin: 0;
+    }
+    .about {
+      background-color: rgb(240, 240, 240);
+      width: 85%;
+      height: 100%;
+      border-radius: 5px;
+      margin: 0 auto 10px auto;
+    }
+    table, td {
+      border-collapse: collapse;
+      padding-left: 15px;
+    }
+    .title {
+      column-width: 20px;
+    }
+    .activity {
+      background-color: rgb(240, 240, 240);
+      width: 85%;
+      height: 100%;
+      border-radius: 5px;
+      margin: 0 auto 10px auto;
+    }
+    .activity p {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      padding: 10px 0 5px 12px;
+      margin: 0;
+    }
+    .travelling {
+      display: inline-block;
+      height: 100%;
+      padding: 0 5px 10px 12px;
+      border-radius: 100px;
+    }
+    .travelling img {
+      display: inline-block;
+      height: 120px;
+      border-radius: 15px;
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div>
+      <p>My Homepage</p>
+    </div>
+    <div class="link">
+      <a href="./index.html">Home</a>
+      <a class="currentlink" href="./profile.html">Profile</a>
+      <a href="./friends.html">Friends</a>
+    </div>
+  </div>
+
+  <div class="profile">
+    <div>
+      <div>
+        <img class="profilepicture" src="https://scontent.fbkk13-2.fna.fbcdn.net/v/t1.0-9/11149271_952831654767371_6151779584907789272_n.jpg?_nc_cat=111&ccb=2&_nc_sid=a9b1d2&_nc_eui2=AeESCAQ49C5VZRexqBxVtmPCy-EoVVf1BmPL4ShVV_UGY4TM56XGzm3ynAMp0-I78ZK73USrTM-QS982lxCv-6W-&_nc_ohc=xKbrz2q5_HAAX9JyjEg&_nc_ht=scontent.fbkk13-2.fna&oh=392031ade997fc7e4ca30bf60f8cb64d&oe=6035DF56">
+      </div>
+      <div class="name">
+        <p style="font-size: 20px;">Umaphon Puranapan</p></br>
+        <p>(Va)</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="about">
+    <table>
+      <tr>
+        <td class="title"><img src="https://www.flaticon.com/svg/vstatic/svg/148/148992.svg?token=exp=1611738258~hmac=77e37b59ef50b0aa566a62302048ba9f" style="width: 20px;"></td>
+        <td class="detail"><p>CodeCamp 8</p></td>
+      </tr>
+      <tr>
+        <td class="title"><img src="https://www.flaticon.com/svg/vstatic/svg/148/148845.svg?token=exp=1611735819~hmac=34e9c7ee62f9ea4635aac4669818bded" style="width: 20px;"></td>
+        <td class="detail"><p>Chiang Mai, Thailand</p></td>
+      </tr>
+      <tr>
+        <td class="title"><img src="https://www.flaticon.com/svg/vstatic/svg/148/148919.svg?token=exp=1611735950~hmac=1a3a7b618cfc8e25122aa4c181bce04b" style="width: 20px;"></td>
+        <td class="detail"><p>14 February 1993</p></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="activity">
+    <div>
+      <p>I love travelling</p>
+    </div>
+    <div class="travelling">
+      <img src="https://scontent.fbkk12-2.fna.fbcdn.net/v/t1.0-9/108676875_3355104454540067_3957370902064988156_o.jpg?_nc_cat=104&ccb=2&_nc_sid=8bfeb9&_nc_eui2=AeGcTJcxKqAXHcpZsCIPK8LiTAe3fLCdz0tMB7d8sJ3PSwrBENcrsxTdltZSCMYZqbZvj0I361U4OIpxD2qnFKdX&_nc_ohc=bDI75JhcuOIAX-aG92d&_nc_ht=scontent.fbkk12-2.fna&oh=fb2ef94a964f7fb926f1061710652f6e&oe=6039699C">
+      <img src="https://scontent.fbkk12-2.fna.fbcdn.net/v/t1.0-9/66500166_2522053527845168_6772580701809147904_o.jpg?_nc_cat=105&ccb=2&_nc_sid=8bfeb9&_nc_eui2=AeE9ilPSy6YqOSXo1k5YJcxA38zw4rNZHprfzPDis1kemvkq6edChZxQAKAJoSe18MoMGb6SSxdtAb_XFoHtiJmC&_nc_ohc=_eZWLwz1XOMAX8SFAxQ&_nc_ht=scontent.fbkk12-2.fna&oh=7ddea5a05da242e51683b5c4a860e493&oe=6036A0DC">
+      <img src="https://scontent.fbkk12-3.fna.fbcdn.net/v/t1.0-9/65221990_2494651793918675_2128348928746192896_n.jpg?_nc_cat=102&ccb=2&_nc_sid=174925&_nc_eui2=AeETHHQnSRVpYVnGp32cmimeKinILGX3LzAqKcgsZfcvMDJWDwmDrF8NRcer6kza1rvONK9ArGSW46YM2TC_l6xB&_nc_ohc=yS56V2FxYGYAX-ur0_0&_nc_ht=scontent.fbkk12-3.fna&oh=3c49cad07eff14c9ddd08cab611ae5dc&oe=6036ADA8">
+      <img src="https://scontent.fbkk8-4.fna.fbcdn.net/v/t31.0-8/26171867_1738348426215686_2947461861040159411_o.jpg?_nc_cat=100&ccb=2&_nc_sid=174925&_nc_eui2=AeH5CPf2mdhilEgXsgkoNqvxaRpLOUYgp15pGks5RiCnXmiP8d-u3apDeiFrj-WUPS-LrtWORZk2PetANUxOpSSK&_nc_ohc=Z60EsC97wCQAX-GoRF4&_nc_oc=AQmiiox8PIpzNLpJiCXp3fXZ60_heR8mt5WoMcrAL_z3nyuPJo09dct0FHR0jNFKF4I&_nc_ht=scontent.fbkk8-4.fna&oh=e2c23047bf7c653eb977af70428c8e21&oe=6036E84B">
+      <img src="https://scontent.fbkk12-4.fna.fbcdn.net/v/t31.0-8/26197860_1740304596020069_4851957746868200064_o.jpg?_nc_cat=103&ccb=2&_nc_sid=8bfeb9&_nc_eui2=AeHcOneZYcXlkwY24qPi9AMDndEoHHSSizKd0SgcdJKLMuYH25fDdN72PLmledEeCXZJdp1wmHYImdBayEXiWxDA&_nc_ohc=TIPzzTZxJj0AX9Jcr8J&_nc_ht=scontent.fbkk12-4.fna&oh=26f7a1b70f113cdfdca90b8d0bf25c77&oe=6039D2DF">
+      <img src="https://scontent.fbkk13-2.fna.fbcdn.net/v/t1.0-9/20376193_1591486404235223_6256767517501731413_n.jpg?_nc_cat=111&ccb=2&_nc_sid=8bfeb9&_nc_eui2=AeGIyXhneWI63B1UYH5pHWjKzPqO827hJVXM-o7zbuElVeNIr5nkNeXwsqI43hg2Gd4OLFxr1lbfpDNM2-_PdMyU&_nc_ohc=UnmbUFhn3rAAX9HKztq&_nc_ht=scontent.fbkk13-2.fna&oh=0f1b458208904440c94bc1a58e3e5320&oe=6037A452">
+      <img src="https://scontent.fbkk9-3.fna.fbcdn.net/v/t1.0-9/10401354_762034297180442_8217867835742866227_n.jpg?_nc_cat=106&ccb=2&_nc_sid=ba80b0&_nc_eui2=AeEdvhmJBl6rVZ2j4mKpxeEuiwj5mLCSGFqLCPmYsJIYWigV9d6CVL_Q0Xuw0lxkQ5Y_yXCklxfs3lrmCAmEDPul&_nc_ohc=pytSsJHLskAAX9MXdLr&_nc_ht=scontent.fbkk9-3.fna&oh=ec9300fd429eb69b3261ac62a8e0a4bc&oe=6039BDB1">
+    </div>
+  </div>
+
+</body>
+</html>
